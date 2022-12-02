@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.lee.dao.UserMap">
+    <select id="findAll" resultType="com.lee.orm.entity.User">
+        select * from t_user;
+    </select>
+</mapper>
